@@ -15,7 +15,7 @@ The design evaluates operational commands on every rising edge of the clock (`cl
 
 ### Control Priority
 1. **Asynchronous Reset (`rst`):** Overrides all operations, forcing the internal registers cleanly to `4'b0000`.
-2. **Parallel Load (`load`):** Takes precedence over shift signals in PISO/PIPO modes to prevent logic contention.
+2. **Parallel Load (`load`):** Takes precedence over the shift signals in PISO/PIPO modes to prevent logic contention.
 3. **Shift (`shift`):** Executes data-steering and bit extraction operations.
 
 ---
