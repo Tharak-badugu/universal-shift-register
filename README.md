@@ -1,4 +1,4 @@
-# 4-Bit Multi-Mode Universal Shift Register (USR)
+# Multi-Mode Universal Shift Register (USR)
 
 ## 📌 Project Overview
 This repository contains the RTL design and verification environment for a **4-bit Universal Shift Register (USR)** written in Verilog. The design supports bidirectional data shifting and parallel loading configurations controlled by a 2-bit mode selection input. It incorporates priority-based control logic alongside an asynchronous active-high reset to align with physical hardware synthesis constraints.
